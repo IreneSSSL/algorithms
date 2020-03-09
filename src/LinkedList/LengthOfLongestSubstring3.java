@@ -2,7 +2,7 @@ package LinkedList;
 
 import java.util.HashMap;
 
-public class lengthOfLongestSubstring3 {
+public class LengthOfLongestSubstring3 {
     public static void main(String[] args) {
         String s = "pwewkkaw";
         System.out.println(lengthOfLongestSubstring(s));

@@ -1,7 +1,7 @@
 package LinkedList;
 
 
-class addTwoNumbers {
+class AddTwoNumbers {
     public static class ListNode {
         int val;
         ListNode next;
@@ -23,7 +23,7 @@ class addTwoNumbers {
 //        ListNode l6 = new ListNode(9);
         l4.next = l5;
 //        l5.next = l6;
-        ListNode re = new addTwoNumbers().addTwoNumbers(l1,l4);
+        ListNode re = new AddTwoNumbers().addTwoNumbers(l1,l4);
 
     }
 
