@@ -49,7 +49,7 @@ public class lengthOfLongestSubstring3 {
 //        But this is not a good one, since its time complexity is 2n.
 
 //        A better attempt is storing each non-repeated character and its index in a hashmap.
-//        when finding a repeated one, the next standard window size is new character index - old character index + 1.
+//        when finding a repeated one, the next standard window size is (new character index - old character index + 1).
 //        then update the character's index(value of the entry).
 //        This method's time complexity is n.
     }
@@ -64,7 +64,7 @@ public class lengthOfLongestSubstring3 {
             if (map.keySet().contains(current)) {
 //                Here is tricky, windowStart cant go earlier than it is now!!!!
 //                because it may go back a large step and include some other repeated characters.
-                windowStart =Math.max( map.get(current) + 1, windowStart);
+                windowStart = Math.max(map.get(current) + 1, windowStart);
             }
             map.put(current, i);
             len = Math.max(len, i - windowStart + 1);
