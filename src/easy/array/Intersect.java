@@ -1,3 +1,5 @@
+package easy.array;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 

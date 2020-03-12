@@ -1,4 +1,4 @@
-package LinkedList;
+package easy.linkedList;
 
 
 class AddTwoNumbers {

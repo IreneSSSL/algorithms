@@ -1,6 +1,5 @@
-package Graph;
+package easy.array;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.*;
 import java.util.stream.IntStream;
 

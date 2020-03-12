@@ -1,4 +1,4 @@
-package LinkedList;
+package easy.array;
 
 public class PlusOne {
     public int[] plusOne(int[] digits) {
