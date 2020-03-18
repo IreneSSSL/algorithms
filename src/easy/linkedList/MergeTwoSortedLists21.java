@@ -16,6 +16,11 @@ public class MergeTwoSortedLists21 {
     //    two pointers. head stays at the very begining of the final linked list. target moves forward.
 //    compare l1 with l2, make target's next as the smaller one and move the smaller one's pointer forword.
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+       Integer a = Integer.MAX_VALUE;
+       char c ='c';
+       if (c == 'c'){
+
+       }
         if (l1 == null || l2 == null) {
             return l1 == null ? l2 : l1;
         }

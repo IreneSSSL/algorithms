@@ -1,6 +1,6 @@
 package easy.linkedList;
 
-public class IsPalindrome {
+public class IsPalindrome234 {
 
     public class ListNode {
         int val;

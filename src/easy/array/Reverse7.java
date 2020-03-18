@@ -1,8 +1,6 @@
 package easy.array;
 
-import java.awt.*;
-
-public class Reverse {
+public class Reverse7 {
     public long reverse(int x) {
         if (x < -Math.pow(2, 32) || x > Math.pow(2, 32) + 1) {
             return 0;
@@ -25,6 +23,6 @@ public class Reverse {
     public static void main(String[] args) {
 //        1563847412
 //        1534236469
-        System.out.println(new Reverse().reverse(1563847412));
+        System.out.println(new Reverse7().reverse(1563847412));
     }
 }

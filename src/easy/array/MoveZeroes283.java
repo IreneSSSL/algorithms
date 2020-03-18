@@ -1,9 +1,9 @@
 package easy.array;
 
-public class MoveZeroes {
+public class MoveZeroes283 {
     public static void main(String[] args) {
         int[] a = {0, 0, 5,0,0};
-        new MoveZeroes().moveZeroes(a);
+        new MoveZeroes283().moveZeroes(a);
     }
 
 //    low-efficiency solution

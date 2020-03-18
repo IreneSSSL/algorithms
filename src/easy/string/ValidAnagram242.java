@@ -2,7 +2,7 @@ package easy.string;
 
 import java.util.HashMap;
 
-public class ValidAnagram {
+public class ValidAnagram242 {
     public boolean isAnagram(String s, String t) {
         if (t == null || t.length() == 0){
             return true;

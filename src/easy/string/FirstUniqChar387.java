@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class FirstUniqChar {
+public class FirstUniqChar387 {
     public int firstUniqChar(String s) {
         if (s == null || s.length() ==0) {
             return -1;
@@ -39,6 +39,6 @@ public class FirstUniqChar {
     }
 
     public static void main(String[] args) {
-        System.out.println(new FirstUniqChar().firstUniqChar("loveleetcode"));
+        System.out.println(new FirstUniqChar387().firstUniqChar("loveleetcode"));
     }
 }

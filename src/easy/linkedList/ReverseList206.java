@@ -1,6 +1,6 @@
 package easy.linkedList;
 
-public class ReverseList {
+public class ReverseList206 {
     public static class ListNode {
         int val;
         ListNode next;
@@ -44,6 +44,6 @@ public class ReverseList {
 //        b.next =c;
 //        c.next = d;
         b.next = null;
-        new ReverseList().reverseList(b);
+        new ReverseList206().reverseList(b);
     }
 }

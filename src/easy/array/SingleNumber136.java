@@ -3,7 +3,7 @@ package easy.array;
 import java.util.*;
 import java.util.stream.IntStream;
 
-class SingleNumber {
+class SingleNumber136 {
     public int singleNumber(int[] nums) {
         if (nums == null) {
             return 0;
@@ -31,7 +31,7 @@ class SingleNumber {
 
     public static void main(String[] args) {
         int[] a = {2, 2, 1, 5, 5};
-        SingleNumber s = new SingleNumber();
+        SingleNumber136 s = new SingleNumber136();
         System.out.println(s.singleNumber(a));
     }
 }

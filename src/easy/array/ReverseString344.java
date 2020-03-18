@@ -1,6 +1,6 @@
 package easy.array;
 
-public class ReverseString {
+public class ReverseString344 {
     public void reverseString(char[] s) {
         if (s == null || s.length == 1){
             return;

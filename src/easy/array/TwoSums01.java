@@ -1,9 +1,9 @@
 package easy.array;
 
 import java.util.*;
-public class TwoSums {
+public class TwoSums01 {
     public static void main(String[] args){
-        TwoSums tw = new TwoSums();
+        TwoSums01 tw = new TwoSums01();
         int[] nums = new int[]{2,7,11,15};
         tw.TwoSum(nums, 9);
     }

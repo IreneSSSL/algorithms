@@ -1,6 +1,6 @@
 package easy.array;
 
-public class PlusOne {
+public class PlusOne66 {
     public int[] plusOne(int[] digits) {
         if (digits == null){
             return digits;
@@ -38,6 +38,6 @@ public class PlusOne {
 
     public static void main(String[] args) {
         int[] a = {9};
-        new PlusOne().plusOne(a);
+        new PlusOne66().plusOne(a);
     }
 }

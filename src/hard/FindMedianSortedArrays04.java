@@ -1,15 +1,10 @@
 package hard;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedList;
-
-public class FindMedianSortedArrays {
+public class FindMedianSortedArrays04 {
     public static void main(String[] args) {
         int[] nums1 = {};
         int[] nums2 = {3, 4};
-        System.out.println(new FindMedianSortedArrays().findMedianSortedArrays(nums1, nums2));
+        System.out.println(new FindMedianSortedArrays04().findMedianSortedArrays(nums1, nums2));
     }
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

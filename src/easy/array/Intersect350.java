@@ -3,7 +3,7 @@ package easy.array;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Intersect {
+public class Intersect350 {
     public int[] intersect(int[] nums1, int[] nums2) {
         if (nums1 == null || nums2 == null) {
             return null;
@@ -41,7 +41,7 @@ public class Intersect {
     public static void main(String[] args) {
         int[] b = {1, 2};
         int[] a = {1, 1};
-        new Intersect().intersect(a, b);
+        new Intersect350().intersect(a, b);
     }
 
 }

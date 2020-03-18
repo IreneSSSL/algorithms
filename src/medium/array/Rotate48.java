@@ -2,11 +2,11 @@ package medium.array;
 
 import java.util.HashSet;
 
-public class Rotate {
+public class Rotate48 {
     public static void main(String[] args) {
 
         int[][] a = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
-        new Rotate().rotate(a);
+        new Rotate48().rotate(a);
     }
 
 
