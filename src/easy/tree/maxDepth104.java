@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class maxDepth {
+public class maxDepth104 {
 
     public class TreeNode {
         int val;
