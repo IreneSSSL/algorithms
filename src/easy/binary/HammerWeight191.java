@@ -1,4 +1,4 @@
-package easy.math;
+package easy.binary;
 
 public class HammerWeight191 {
 
