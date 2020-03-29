@@ -1,10 +1,13 @@
 package easy.array;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class YanghuiTriangle118 {
 
     public List<List<Integer>> generate(int numRows) {
         if (numRows <= 0){
-            return new  ArrayList<List<Integer>>();
+            return new ArrayList<List<Integer>>();
         }
         List<List<Integer>> result = new  ArrayList<List<Integer>>();
         List<Integer> last = new ArrayList<Integer>();
