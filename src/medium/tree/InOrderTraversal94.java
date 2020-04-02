@@ -1,9 +1,6 @@
 package medium.tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class InOrderTraversal94 {
     public class TreeNode {
@@ -13,7 +10,21 @@ public class InOrderTraversal94 {
         TreeNode(int x) { val = x; }
     }
 
-//    this is solved recursively
+    public static void main(String[] args) {
+        List<Integer> a = new LinkedList<>();
+        List<Integer> b = new LinkedList<>();
+        a.add(0);
+        a.add(1);
+        a.add(1);
+        a.add(2);
+        b.add(1);
+        b.add(1);
+        b.add(1);
+        System.out.println(a.containsAll(b));
+
+    }
+
+   //    this is solved recursively
     public List<Integer> inorderTraversal(TreeNode root) {
         return check(root);
     }
