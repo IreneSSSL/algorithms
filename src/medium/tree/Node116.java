@@ -33,7 +33,10 @@ public class Node116 {
         new Node116().connect2(a);
 
     }
-//  this is the fastest way
+//  this is the fastest way.
+//    all the node.next points to its right node(in the tree graph)
+
+//    先把n层的next定好之后，n+1层的right就是n层next的left
     public Node116 connect2(Node116 root) {
         if(root==null || (root.left == null && root.right==null)) return root;
         if(root.next != null) root.right.next = root.next.left;
