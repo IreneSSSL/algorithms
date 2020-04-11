@@ -55,7 +55,15 @@ public class ReverseNodeInKgroups25 {
     }
 
     public ListNode reverse(ListNode node, int k){
+
+        ListNode s = node;
         int len = k;
+        while(s!=null && len-- >0){
+            s = s.next;
+        }
+        if(len >=0) return node;
+
+
         ListNode former = node;
         ListNode later = node.next;
         while (former!=null && later!=null && k-- >0){
@@ -64,19 +72,20 @@ public class ReverseNodeInKgroups25 {
             former = later;
             later = tmp;
         }
-        if (k >0){
-            ListNode h = former;
-            later = former.next;
-            int s = len-k;
-            while (former!=null && later!=null && s-- >0){
-                ListNode tmp =later.next;
-                later.next = former;
-                former = later;
-                later = tmp;
-            }
-            h.next = null;
-            return former;
-        }
+//         this part means to reduce the check of K at the start of this function. but after testing, there is no significant increase. (both run in 0ms)
+//        if (k >0){
+//            ListNode h = former;
+//            later = former.next;
+//            int s = len-k;
+//            while (former!=null && later!=null && s-- >0){
+//                ListNode tmp =later.next;
+//                later.next = former;
+//                former = later;
+//                later = tmp;
+//            }
+//            h.next = null;
+//            return former;
+//        }
         node.next = later;
         return former;
     }
