@@ -17,7 +17,7 @@ public class DecodeString394 {
 
     }
 
-//    每次只处理一个【】，然后生成个新的string，对新的string进行爹下一次处理，直到所有【】都被处理完
+//    每次只处理一个【】，然后生成个新的string，对新的string进行递归 下一次处理，直到所有【】都被处理完
     public String helper(String s){
         if (!s.contains("[")) return s;
 
