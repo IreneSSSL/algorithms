@@ -1,4 +1,4 @@
-package hard;
+package hard.array;
 
 public class FindMedianSortedArrays04 {
     public static void main(String[] args) {
