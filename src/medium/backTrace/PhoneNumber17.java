@@ -8,6 +8,7 @@ public class PhoneNumber17 {
     List<String> result = new LinkedList<String>();
     public List<String> letterCombinations(String digits) {
         if(digits.length() ==0) return result;
+        
         HashMap<Character, String> map =new HashMap<>();
         map.put('2',"abc");
         map.put('3',"def");
