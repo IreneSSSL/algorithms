@@ -1,4 +1,4 @@
-package hard;
+package hard.slidingWindow;
 
 import java.util.LinkedList;
 
