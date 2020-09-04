@@ -1,6 +1,5 @@
-package hard.backtracing;
+package hard.backtracking;
 
-import javax.swing.tree.TreeNode;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;

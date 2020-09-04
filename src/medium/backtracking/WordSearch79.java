@@ -1,4 +1,4 @@
-package medium.backTrace;
+package medium.backtracking;
 
 public class WordSearch79 {
 

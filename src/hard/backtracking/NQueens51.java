@@ -1,4 +1,4 @@
-package hard.backtracing;
+package hard.backtracking;
 
 import java.util.Arrays;
 import java.util.LinkedList;
