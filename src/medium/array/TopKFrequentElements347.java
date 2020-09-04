@@ -16,7 +16,7 @@ public class TopKFrequentElements347 {
 
 
 
-//    精妙！！！
+//  最优解，精妙！！！
     public int[] topKFrequent(int[] nums, int k) {
         List<Integer>[] frequencies = new ArrayList[nums.length + 1];
         List<Integer> list = new ArrayList<>();
@@ -27,7 +27,7 @@ public class TopKFrequentElements347 {
                 if ((frequencies[count] == null)) {
                     frequencies[count] = new ArrayList<>();
                 }
-                frequencies[count].add(nums[i]); // 出现count次的数字，都放一起
+                frequencies[count].add(nums[i]); // 出现count次的数字，都放一起。这样就方便之后查找，太妙了！！
                 count = 1;
             } else {
                 count++;
@@ -52,6 +52,7 @@ public class TopKFrequentElements347 {
     }
 
 
+//    我的解法，虽然能通过，但是略慢。
     public int[] topKFrequent2(int[] nums, int k) {
 
         int[] heap = new int[k+1];
